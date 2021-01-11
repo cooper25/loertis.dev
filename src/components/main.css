@@ -1,13 +1,15 @@
+@import url("https://use.typekit.net/wgi7bzk.css");
 body {
     margin: 0px;
     padding: 0px;
-    color: black;
+    background-color: black;
+    /* cursor: url("/cursor.png"), auto; */
+    color: #F0FFFD;
     transition: .2s;
 }
 ::selection {
-    background-color: rgba(0, 0, 0, 0.75);
-    color: white;
-    fill: white;
+    background-color: #F0FFFD;
+    color: black;
 }
 elements {
     position: absolute;
@@ -25,11 +27,15 @@ h2 {
 a {
     transition: .2s;
     font-family: "stolzl", sans-serif;
+    font-weight: 300;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.5);
+    color: #F0FFFD85;
+    padding: 5px;
+    margin-left: -5px;
 }
 a:hover {
-    color: rgba(0, 0, 0, 0.65);
+    transition: .2s;
+    background-color: #F0FFFD25;
 }
 li {
     padding: 5px 0px;
@@ -41,7 +47,7 @@ li {
 }
 .nav_sect {
     margin-top: 25px;
-    padding-right: 20%;
+    padding-right: 100px;
 }
 #space {
     margin-top: 65px;

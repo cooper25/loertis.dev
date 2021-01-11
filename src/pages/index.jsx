@@ -19,7 +19,7 @@ const IndexPage = () => {
       <div className="nav_cont">
         <div id="top" className="nav_sect">
           <h2>contact me</h2>
-          <li><a target="_blank" rel="noreferrer" href="mailto:me@loertis.dev">me@loertis.dev</a></li>
+          <li><a target="_blank" rel="noreferrer" type="email" href="mailto:me@loertis.dev">me@loertis.dev</a></li>
           <li><a target="_blank" rel="noreferrer" href="https://discord.com/users/307273393600724994/">loertis#0325</a></li>
         </div><br/>
         <div className="nav_sect">
